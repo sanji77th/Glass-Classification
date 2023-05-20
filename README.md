@@ -7,13 +7,12 @@ This project aims to predict the type of a glass based on its element compositio
 The dataset used in this project contains information about the percentages of different chemical elements present in various glass samples. It provides a comprehensive view of the composition of each glass type, enabling us to train a machine learning model for classification purposes.
 
 ## Approach
-The project was developed using a Jupyter Notebook, which allowed for interactive exploration and analysis of the dataset. The analysis involved data preprocessing, including handling missing values and normalizing the data. The next step involved training a random forest classifier using scikit-learn, a powerful machine learning library. Random forest is a popular algorithm for classification tasks due to its ability to handle complex relationships between variables and provide reliable predictions.
+The project was developed using a Python, which allowed for interactive exploration and analysis of the dataset. The analysis involved data preprocessing, including handling missing values and normalizing the data. The next step involved training a random forest classifier using scikit-learn, a powerful machine learning library. Random forest is a popular algorithm for classification tasks due to its ability to handle complex relationships between variables and provide reliable predictions.
 
 ## Random Forest Classifier
 The random forest classifier utilized in this project is an ensemble learning method that combines multiple decision trees to make predictions. By aggregating the predictions of individual trees, the classifier improves generalization and reduces overfitting. It has been widely used in various domains due to its robustness and accuracy.
 
 ## Tools and Packages
-- Jupyter Notebook: Used for interactive data analysis, model development, and result visualization.
 - scikit-learn: A popular machine learning library in Python, providing various algorithms and tools for classification, regression, and more.
 - NumPy: A fundamental package for scientific computing in Python, used for efficient numerical operations on arrays and matrices.
 - Pandas: A powerful data manipulation and analysis library, used for data preprocessing and exploration.
